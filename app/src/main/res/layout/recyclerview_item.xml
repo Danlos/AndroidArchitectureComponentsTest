@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="Word"
+                  type="com.danlos.test.model.Word"
+        />
+    </data>
+    <LinearLayout
+                  android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/textView"
+                style="@style/word_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:text="@{Word.word, default=PLACEHOLDER}"
+        />
+    </LinearLayout>
+</layout>
