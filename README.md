@@ -1,2 +1,2 @@
-# AndroidTests
-This Repo will have my own Android tests, some of them are following codelabs
+# Android Architecture Components Tests
+Android Architecture components test done following [this codelab](https://codelabs.developers.google.com/codelabs/android-room-with-a-view-kotlin/#0)
